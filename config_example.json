@@ -1,0 +1,19 @@
+{
+  "data_path": "data/",
+  "data_attach_path": "data/attach/",
+  "table_database_path": "data/table_records.db",
+  "sleep_timer_seconds": 5,
+
+  "mail_server": "imap.gmail.com",
+  "mail_login": "example_login@gmail.com",
+  "mail_pass": "example_pass",
+
+  "mail_subject_format": "Расписание {univer} {fak}",
+  "mail_whitelist_univers": {
+    "UniverName": {
+      "Fac1": "example1@mail.com",
+      "Fac2": "example1@mail.com",
+      "Fac3": "example1@mail.com"
+    }
+  }
+}
